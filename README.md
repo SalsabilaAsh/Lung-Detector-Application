@@ -24,23 +24,23 @@ https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
 - data from kaggle (covid radiography database) that contain 3616 covid lung images, 10200 normal lung images, 1345 pneumonia lung images, and 6012 lung opacity images
 - 100 images for the validation set and 100 for the test set. So it left 1145 images for training
 #### Image Normalization and Preprocessing
-divided the image pixels with 255.0 so the images only contain pixels that are valued between 0-1
+- divided the image pixels with 255.0 so the images only contain pixels that are valued between 0-1
 #### Feed Images Into Convolutional Neural Network
 [Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/main.py)
-Training and validation accuracy and loss graph
+- Training and validation accuracy and loss graph
 ![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/model.PNG)
 #### Evaluate
 [Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/evaluate.py)
 #### Converting Model
-result that we get is loss = 0.1188 and accuracy = 0.9600
+- result that we get is loss = 0.1188 and accuracy = 0.9600
 
 ## Cloud Computing 
-[Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/index.html)
-[Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/index.js)
+- [Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/index.html)
+- [Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/index.js)
 
 ## Mobile Programming (Android)
 [Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/tree/master)
-This android application was created based on a web application by utilizing the web view feature. This feature will display the COVID-19 classification application web page.
+- This android application was created based on a web application by utilizing the web view feature. This feature will display the COVID-19 classification application web page.
 1. Splash Screen
 
 ![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/image1.PNG)
