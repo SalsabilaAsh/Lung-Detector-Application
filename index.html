@@ -1,0 +1,122 @@
+<html>
+  <head>
+  <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+   
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(https://media.istockphoto.com/photos/gray-abstract-minimal-motion-backgrounds-loopable-elements-4k-picture-id1174989482?b=1&k=6&m=1174989482&s=170667a&w=0&h=eejNaSkwHR3jXIwSNMNAwSPyi1obRACM1Ye8L03qMLY=);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+.formcok{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+	}
+
+	.pembacaan{
+	color:red;
+}
+
+	.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 265px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #EB3A14 !important;
+}
+
+	
+    </style>
+   <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+  </head>
+  <body>
+   <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Bangkit2021<span><br>LungDetector</span></div>
+		</div>
+		<br>
+		<div class="formcok">
+    <input type="file" class="form-control" id="pic" aria-describedby="inputGroupFileAddon01" accept="image/x-png,image/gif,image/jpeg" onchange="tampilkanPreview(this,'img');" required/>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <img id="img" crossorigin src="upload.jpg"  width="299" height="299"/>
+    <br>
+    <span class="pembacaan" id='diagnosis'></span>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+    <script class="body" type="text/javascript">
+       function tampilkanPreview(userfile,idpreview)
+    { //membuat objek gambar
+      document.getElementById('diagnosis').innerHTML = 'Mendiagnosa';
+      var gb = userfile.files;
+      //loop untuk merender gambar
+      for (var i = 0; i < gb.length; i++)
+      { //bikin variabel
+        var gbPreview = gb[i];
+        var imageType = /image.*/;
+        var preview=document.getElementById(idpreview);            
+        var reader = new FileReader();
+        if (gbPreview.type.match(imageType)) 
+        { //jika tipe data sesuai
+          preview.file = gbPreview;
+          reader.onload = (function(element) 
+          {
+            return function(e) 
+            {
+              element.src = e.target.result;
+            };
+          })(preview);
+          //membaca data URL gambar
+          reader.readAsDataURL(gbPreview);
+          app();
+        }
+          else
+          { //jika tipe data tidak sesuai
+            alert("Tipe file tidak sesuai. Gambar harus bertipe .png atau .jpg.");
+          }
+      }    
+    }
+    </script>
+  </body>
+</html>
