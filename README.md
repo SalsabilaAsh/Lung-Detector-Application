@@ -9,12 +9,12 @@ In this capstone project our team created COVID-19 detection based on rontgen th
 Raw X ray lung data gained from a dataset that was manually labeled by the professionals (radiologist), dividing into 3 classes, normal lungs, covid-19 lungs, and pneumonia lungs.  All the data will be segmented into training data, validation data, and test data and will result in classification of a patient between identified as COVID-19 or normal. Results from the classification will be presented in android apps so that the user will be able to see the result in the pleasing UI.
 
 # Our Teams :
-### Achmad Setiawan - M00256 - Machine Learning 
-### Indra Kusuma - M0040252 -  Machine Learning 
-### Ilham jati - C0040254 - Cloud Computing 
-### Ernestine Zefanya - C1161477 - Cloud Computing 
-### Miftakhul Janah Sulastri -  A0040178 - Mobile Programming (Android) 
-### Salsabila Ash Shofiyah - A0040237 - Mobile Programming (Android) 
+⋅⋅* Achmad Setiawan - M00256 - Machine Learning 
+⋅⋅* Indra Kusuma - M0040252 -  Machine Learning 
+⋅⋅* Ilham jati - C0040254 - Cloud Computing 
+⋅⋅* Ernestine Zefanya - C1161477 - Cloud Computing 
+⋅⋅* Miftakhul Janah Sulastri -  A0040178 - Mobile Programming (Android) 
+⋅⋅* Salsabila Ash Shofiyah - A0040237 - Mobile Programming (Android) 
 
 # Dataset : 
 https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
