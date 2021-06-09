@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lung Detector</string>
+    <string name="name_product">Lung Detector</string>
+    <string name="version">Version 1.0</string>
+    <string name="name_apps">Covid 19 Detector Apps</string>
+    <string name="welcome">Lung Detector</string>
+    <string name="detail">detail</string>
+    <string name="detail_welcome"> Easy application for detection Covid-19 with Lung X-ray </string>
+    <string name="button_text">Get Started</string>
+    <string name="titleMainActivity">Home</string>
+    <string name="titleWeb">" "</string>
+    <string name="info">Information</string>
+    <string name="titleInfo">Lung Detector</string>
+    <string name="versionInfo">Version 1.0.06.21</string>
+    <string name="companyInfo"><![CDATA[© 2021 Kucheng Inc.]]></string>
+    <string name="contactInfo">This application is a tool for monitoring Covid-19 patients. Upload X-ray images and the results of the diagnosis will be displayed.</string>
+
+</resources>
