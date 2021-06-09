@@ -23,10 +23,22 @@ https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
 #### Preparing the data
 #### Image Normalization and Preprocessing
 #### Feed Images Into Convolutional Neural Network
+[Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/main.py)
 #### Evaluate
+[Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/evaluate.py)
 #### Converting Model
 
-## [Mobile Programming (Android)](https://github.com/SalsabilaAsh/Lung-Detector-Application/tree/master)
+## Mobile Programming (Android)
+[Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/tree/master)
 This android application was created based on a web application by utilizing the web view feature. This feature will display the COVID-19 classification application web page.
+1. Splash Screen
+![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/device-2021-06-09-180047.png)
+2. Welcome Page
+![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/device-2021-06-09-180019.png)
+3. Web Application View
+![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/device-2021-06-09-180100.png)
+4. Information Page
+![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/device-2021-06-09-180113.png)
 
-##
+
+
