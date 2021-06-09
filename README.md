@@ -32,10 +32,17 @@ https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
 [Documentation](https://github.com/SalsabilaAsh/Lung-Detector-Application/tree/master)
 This android application was created based on a web application by utilizing the web view feature. This feature will display the COVID-19 classification application web page.
 1. Splash Screen
+
 ![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/image1.PNG)
+
 2. Welcome Page
+
 ![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/image2.PNG)
+
 3. Web Application View
+
 ![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/image3.PNG)
+
 4. Information Page
+
 ![alt text](https://github.com/SalsabilaAsh/Lung-Detector-Application/blob/main/images/image4.PNG)
