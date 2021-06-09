@@ -26,7 +26,7 @@ https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
 #### Evaluate
 #### Converting Model
 
-## [Mobile Programming (Android)]
+## [Mobile Programming (Android)](https://github.com/SalsabilaAsh/Lung-Detector-Application/tree/master)
 This android application was created based on a web application by utilizing the web view feature. This feature will display the COVID-19 classification application web page.
 
 ##
